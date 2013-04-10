@@ -34,8 +34,32 @@
 - (void)sessionDidLoginSuccessfully:(SPSession *)aSession
 {
     NSLog(@"All good");
-    [SPUser userWithURL:[NSURL URLWithString:@"spotify:user:maxehmookau"] inSession:[SPSession sharedSession] callback:^(SPUser *user){
-        NSLog(@"%@", [user description]);
+
+    SPSession *session = [SPSession sharedSession];
+    
+    [SPAsyncLoading waitUntilLoaded:session timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems){
+        NSLog(@"loaded session");
+        
+        [SPAsyncLoading waitUntilLoaded:session.userPlaylists timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+            NSLog(@"loaded playlist container");
+            NSArray *playlists = [[loadedItems objectAtIndex:0] flattenedPlaylists];
+            [SPAsyncLoading waitUntilLoaded:playlists timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+                playlistArray = playlists;
+                [self processPlaylists];
+            }];
+        }];
     }];
 }
+
+- (void)processPlaylists
+{
+    NSLog(@"%@", [playlistArray description]);
+    for (SPPlaylist *playlist in playlistArray) {
+        [SPAsyncLoading waitUntilLoaded:[playlist items] timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+            
+        }];
+    }
+}
+
+
 @end

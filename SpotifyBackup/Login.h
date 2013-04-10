@@ -10,5 +10,9 @@
 #import <CocoaLibSpotify/CocoaLibSpotify.h>
 
 @interface Login : NSObject <SPSessionDelegate>
+{
+    NSArray *playlistArray;
+}
 -(void)login;
+-(void)processPlaylists;
 @end
