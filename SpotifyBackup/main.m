@@ -7,16 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaLibSpotify/CocoaLibSpotify.h>
-#import "appkey.h"
+#import "Login.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        [SPSession initializeSharedSessionWithApplicationKey:[NSData dataWithBytes:&g_appkey length:g_appkey_size] userAgent:@"MaxWoolf.SpotifyRadio" loadingPolicy:SPAsyncLoadingManual error:nil];
         
+        Login *login = [[Login alloc] init];
+        [login login];
+        [[NSRunLoop currentRunLoop] run];
     }
     return 0;
 }

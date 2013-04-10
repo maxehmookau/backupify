@@ -12,6 +12,7 @@
 		4D51B5F617156E6D008A05F4 /* SpotifyBackup.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */; };
 		4D51B78117157B2E008A05F4 /* CocoaLibSpotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D51B77E17157AFF008A05F4 /* CocoaLibSpotify.framework */; };
 		4D51B78317157BD1008A05F4 /* appkey.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D51B78217157BD1008A05F4 /* appkey.h */; };
+		4D51B788171582E0008A05F4 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51B787171582E0008A05F4 /* Login.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SpotifyBackup.1; sourceTree = "<group>"; };
 		4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify Mac Framework.xcodeproj"; path = "../cocoalibspotify/Mac Framework/CocoaLibSpotify Mac Framework.xcodeproj"; sourceTree = "<group>"; };
 		4D51B78217157BD1008A05F4 /* appkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appkey.h; sourceTree = "<group>"; };
+		4D51B786171582E0008A05F4 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		4D51B787171582E0008A05F4 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		9C666E5B43594AFC8BE303EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +105,8 @@
 				4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */,
 				4D51B5F317156E6D008A05F4 /* Supporting Files */,
 				4D51B78217157BD1008A05F4 /* appkey.h */,
+				4D51B786171582E0008A05F4 /* Login.h */,
+				4D51B787171582E0008A05F4 /* Login.m */,
 			);
 			path = SpotifyBackup;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			files = (
 				4D51B5F217156E6D008A05F4 /* main.m in Sources */,
 				4D51B78317157BD1008A05F4 /* appkey.h in Sources */,
+				4D51B788171582E0008A05F4 /* Login.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
