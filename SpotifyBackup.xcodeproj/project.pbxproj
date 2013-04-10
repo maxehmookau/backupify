@@ -10,7 +10,26 @@
 		4D51B5EF17156E6D008A05F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D51B5EE17156E6D008A05F4 /* Foundation.framework */; };
 		4D51B5F217156E6D008A05F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D51B5F117156E6D008A05F4 /* main.m */; };
 		4D51B5F617156E6D008A05F4 /* SpotifyBackup.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */; };
+		4D51B78117157B2E008A05F4 /* CocoaLibSpotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D51B77E17157AFF008A05F4 /* CocoaLibSpotify.framework */; };
+		4D51B78317157BD1008A05F4 /* appkey.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D51B78217157BD1008A05F4 /* appkey.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D51B77D17157AFF008A05F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503D630F13258041007772CA;
+			remoteInfo = CocoaLibSpotify;
+		};
+		4D51B77F17157AFF008A05F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504E4934155AA85400E1C0F7;
+			remoteInfo = CocoaLSTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4D51B5E917156E6D008A05F4 /* CopyFiles */ = {
@@ -31,6 +50,9 @@
 		4D51B5F117156E6D008A05F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D51B5F417156E6D008A05F4 /* SpotifyBackup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyBackup-Prefix.pch"; sourceTree = "<group>"; };
 		4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SpotifyBackup.1; sourceTree = "<group>"; };
+		4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify Mac Framework.xcodeproj"; path = "../cocoalibspotify/Mac Framework/CocoaLibSpotify Mac Framework.xcodeproj"; sourceTree = "<group>"; };
+		4D51B78217157BD1008A05F4 /* appkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appkey.h; sourceTree = "<group>"; };
+		9C666E5B43594AFC8BE303EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D51B78117157B2E008A05F4 /* CocoaLibSpotify.framework in Frameworks */,
 				4D51B5EF17156E6D008A05F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +71,7 @@
 		4D51B5E217156E6D008A05F4 = {
 			isa = PBXGroup;
 			children = (
+				4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */,
 				4D51B5F017156E6D008A05F4 /* SpotifyBackup */,
 				4D51B5ED17156E6D008A05F4 /* Frameworks */,
 				4D51B5EC17156E6D008A05F4 /* Products */,
@@ -66,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4D51B5EE17156E6D008A05F4 /* Foundation.framework */,
+				9C666E5B43594AFC8BE303EE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +101,7 @@
 				4D51B5F117156E6D008A05F4 /* main.m */,
 				4D51B5F517156E6D008A05F4 /* SpotifyBackup.1 */,
 				4D51B5F317156E6D008A05F4 /* Supporting Files */,
+				4D51B78217157BD1008A05F4 /* appkey.h */,
 			);
 			path = SpotifyBackup;
 			sourceTree = "<group>";
@@ -86,6 +112,15 @@
 				4D51B5F417156E6D008A05F4 /* SpotifyBackup-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D51B77917157AFF008A05F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D51B77E17157AFF008A05F4 /* CocoaLibSpotify.framework */,
+				4D51B78017157AFF008A05F4 /* CocoaLSTests.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,12 @@
 			mainGroup = 4D51B5E217156E6D008A05F4;
 			productRefGroup = 4D51B5EC17156E6D008A05F4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D51B77917157AFF008A05F4 /* Products */;
+					ProjectRef = 4D51B77817157AFF008A05F4 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4D51B5EA17156E6D008A05F4 /* SpotifyBackup */,
@@ -134,12 +175,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4D51B77E17157AFF008A05F4 /* CocoaLibSpotify.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLibSpotify.framework;
+			remoteRef = 4D51B77D17157AFF008A05F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D51B78017157AFF008A05F4 /* CocoaLSTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CocoaLSTests.app;
+			remoteRef = 4D51B77F17157AFF008A05F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D51B5E717156E6D008A05F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D51B5F217156E6D008A05F4 /* main.m in Sources */,
+				4D51B78317157BD1008A05F4 /* appkey.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +219,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -194,6 +254,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -242,6 +303,7 @@
 				4D51B5FB17156E6D008A05F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
