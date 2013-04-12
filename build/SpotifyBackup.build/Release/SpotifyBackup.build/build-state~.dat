@@ -1,0 +1,211 @@
+TSpotifyBackup
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cAnalyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m
+cAnalyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m
+cCompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000512F202600000000000000AA
+t1362042918
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B1323F00000000000C39B8
+t1353790015
+s801208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050B1323F00000000000015F7
+t1353790015
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c0000000050B132440000000000003089
+t1353790020
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/4.2/include/stdint.h
+c00000000512F1FFE00000000000056A4
+t1362042878
+s22180
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h
+c000000005166DF1600000000000001B8
+t1365696278
+s440
+i<Foundation/Foundation.h>
+i<CocoaLibSpotify/CocoaLibSpotify.h>
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m
+c000000005166E38C0000000000000C3E
+t1365697420
+s3134
+i"Login.h"
+i<CocoaLibSpotify/CocoaLibSpotify.h>
+i"appkey.h"
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/SpotifyBackup-Prefix.pch
+c0000000051658C6800000000000000A7
+t1365609576
+s167
+i<Foundation/Foundation.h>
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/appkey.h
+c0000000051658C680000000000000811
+t1365609576
+s2065
+i<stdint.h>
+i<stdlib.h>
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m
+c000000005166DFFF00000000000001F8
+t1365696511
+s504
+i<Foundation/Foundation.h>
+i"Login.h"
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/SpotifyBackup
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/SpotifyBackup.dSYM
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/SpotifyBackup.LinkFileList
+c000000005166E7880000000000000113
+t1365698440
+s275
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/StaticAnalyzer/normal/x86_64/Login.plist
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/StaticAnalyzer/normal/x86_64/main.plist
+t2
+s0
+
+N/Users/maxwoolf/Documents/personal-projects/cocoalibspotify/Mac Framework/build/Release/CocoaLibSpotify.framework/CocoaLibSpotify
+c000000005166E7880000000000092444
+t1365698440
+s599108
+
+N/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth
+t2
+s0
+
+CAnalyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m
+s387391240.820292
+e387391240.977311
+r1
+xAnalyze
+x/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m
+oIn file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m:9:
+o/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found
+o#import <CocoaLibSpotify/CocoaLibSpotify.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Analyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m4b23d2081f17b741^cb30fa081f17b741^-307"In file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m:9:/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found#import <CocoaLibSpotify/CocoaLibSpotify.h> 1 error generated.1(36%IDEActivityLogAnalyzerWarningMessage2@46"Analyzer skipped this file due to parse errors-387391240#18446744073709551615#0#1(2@50"'CocoaLibSpotify/CocoaLibSpotify.h' file not found-387391240#18446744073709551615#0#-1#33"com.apple.dt.IDE.analyzer.warning23%DVTTextDocumentLocation3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---1#33"com.apple.dt.IDE.analyzer.warning3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m0000000000000000^3547"Analyze SpotifyBackup/Login.m    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch --analyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m -o /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/StaticAnalyzer/normal/x86_64/Login.plist36"ABDF881E-E9BA-4FDD-97DC-998E11837678-
+
+CAnalyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m
+s387391240.820285
+e387391240.982453
+r1
+xAnalyze
+x/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m
+oIn file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m:10:
+o/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found
+o#import <CocoaLibSpotify/CocoaLibSpotify.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Analyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.mfb21d2081f17b741^e981fb081f17b741^-307"In file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m:10:/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found#import <CocoaLibSpotify/CocoaLibSpotify.h> 1 error generated.1(36%IDEActivityLogAnalyzerWarningMessage2@46"Analyzer skipped this file due to parse errors-387391240#18446744073709551615#0#1(2@50"'CocoaLibSpotify/CocoaLibSpotify.h' file not found-387391240#18446744073709551615#0#-1#33"com.apple.dt.IDE.analyzer.warning23%DVTTextDocumentLocation3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#---1#33"com.apple.dt.IDE.analyzer.warning3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m0000000000000000^3544"Analyze SpotifyBackup/main.m    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch --analyze /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m -o /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/StaticAnalyzer/normal/x86_64/main.plist36"E4583851-4EF5-44EE-86F1-1719805CB53E-
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesde3e5b081f17b741^2fbe5c081f17b741^-120"warning: no rule to process file '$(PROJECT_DIR)/SpotifyBackup/appkey.h' of type sourcecode.c.h for architecture x86_641(21%IDEActivityLogMessage2@119"Warning: no rule to process file '$(PROJECT_DIR)/SpotifyBackup/appkey.h' of type sourcecode.c.h for architecture x86_64-387391240#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"A4FAA331-92F7-4DA2-8248-67807DE86A8A-
+
+CCompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s387391240.888398
+e387391241.015741
+r0
+xCompileC
+xbuild/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o
+x/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m:9:
+o/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found
+o#import <CocoaLibSpotify/CocoaLibSpotify.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m1992e3081f17b741^960404091f17b741^-320"In file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m:9:/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found#import <CocoaLibSpotify/CocoaLibSpotify.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@50"'CocoaLibSpotify/CocoaLibSpotify.h' file not found-387391241#18446744073709551615#0#1(2@100"In file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m:9:-387391241#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m0000000000000000^8#8#8#8#142#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h0000000000000000^9#8#9#8#176#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m0000000000000000^3290"CompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o SpotifyBackup/Login.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch --serialize-diagnostics /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.dia -c /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.m -o /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/Login.o36"23E5DC49-0271-441C-B801-C521DEEF5079-
+
+CCompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s387391240.888396
+e387391241.117002
+r0
+xCompileC
+xbuild/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o
+x/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m:10:
+o/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found
+o#import <CocoaLibSpotify/CocoaLibSpotify.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m1992e3081f17b741^f9f71d091f17b741^-320"In file included from /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m:10:/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/Login.h:10:9: fatal error: 'CocoaLibSpotify/CocoaLibSpotify.h' file not found#import <CocoaLibSpotify/CocoaLibSpotify.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m0000000000000000^3285"CompileC build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o SpotifyBackup/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch --serialize-diagnostics /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.dia -c /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/main.m -o /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/Objects-normal/x86_64/main.o36"3E18DC0D-8DBE-48C3-9AC3-99C561004AAD-
+
+CGenerateDSYMFile /Users/maxwoolf/Documents/personal-projects/backupify/build/Release/SpotifyBackup.dSYM /Users/maxwoolf/Documents/personal-projects/backupify/build/Release/SpotifyBackup
+r0
+
+CLd /Users/maxwoolf/Documents/personal-projects/backupify/build/Release/SpotifyBackup normal x86_64
+r0
+
+CProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s387391240.367138
+e387391240.881525
+r1
+xProcessPCH
+x/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth
+xSpotifyBackup/SpotifyBackup-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SpotifyBackup/SpotifyBackup-Prefix.pch111d5e081f17b741^2aabe1081f17b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/SpotifyBackup-Prefix.pch0000000000000000^3312"ProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks --serialize-diagnostics /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.dia -c /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/SpotifyBackup-Prefix.pch -o /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-bubimbtcuazgmbaxuspojmyjckle/SpotifyBackup-Prefix.pch.pth36"B20F4928-711F-4410-9946-5DC8BE5758A3-
+
+CProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s387391240.367144
+e387391240.813267
+r1
+xProcessPCH
+x/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth
+xSpotifyBackup/SpotifyBackup-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SpotifyBackup/SpotifyBackup-Prefix.pch081f5e081f17b741^1232d0081f17b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/SpotifyBackup-Prefix.pch0000000000000000^3694"ProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth SpotifyBackup/SpotifyBackup-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/maxwoolf/Documents/personal-projects/backupify    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-generated-files.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-own-target-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-all-target-headers.hmap -iquote /Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/SpotifyBackup-project-headers.hmap -I/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources/x86_64 -I/Users/maxwoolf/Documents/personal-projects/backupify/build/SpotifyBackup.build/Release/SpotifyBackup.build/DerivedSources -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release -F/Users/maxwoolf/Documents/personal-projects/backupify/build/Release/CocoaLibSpotify.framework/Versions/Frameworks -D__clang_analyzer__ -c /Users/maxwoolf/Documents/personal-projects/backupify/SpotifyBackup/SpotifyBackup-Prefix.pch -o /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SpotifyBackup-Prefix-exftbrqgsdpyidbcgxpkiszxykzo/SpotifyBackup-Prefix.pch.pth36"C05E51D4-7F37-4AA7-94A6-BB4EC01B947C-
+
