@@ -12,7 +12,8 @@
 @interface Login : NSObject <SPSessionDelegate>
 {
     NSArray *playlistArray;
+    NSMutableArray *processedPlaylists;
 }
--(void)login;
+-(void)loginWithUsername:(NSString *)username password:(NSString *)password;
 -(void)processPlaylists;
 @end
