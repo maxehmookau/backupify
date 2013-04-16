@@ -56,31 +56,38 @@
 
 - (void)processPlaylists
 {
+    processedPlaylists = [[NSMutableArray alloc] init];
     for (SPPlaylist *playlist in playlistArray) {
-        NSMutableDictionary *playlistDictionary = [[NSMutableDictionary alloc] init];
-        NSArray *playlistTracksItems = [playlist items];
-        NSMutableArray *tracks = [[NSMutableArray alloc] init];
-        for (SPPlaylistItem *track in playlistTracksItems) {
-            [tracks addObject:[track item]];
+        NSMutableDictionary *currentPlaylist = [[NSMutableDictionary alloc] init];
+        [currentPlaylist setValue:[playlist name] forKey:@"name"];
+        [currentPlaylist setValue:[[playlist spotifyURL] absoluteString] forKey:@"url"];
+        [currentPlaylist setValue:[playlist subscribers] forKey:@"subscribers"];
+        
+        NSMutableArray *playlistItems = [[NSMutableArray alloc] init];
+        for (SPPlaylistItem *item in [playlist items]) {
+            [playlistItems addObject:(SPTrack *)[item item]];
         }
-        [SPAsyncLoading waitUntilLoaded:tracks timeout:10.0 then:^(NSArray *loadeditems, NSArray *notLoadedItems) {
-            NSMutableArray *processedTracks = [[NSMutableArray alloc] init];
-            
-            for (SPTrack *track in tracks) {
+        
+        [SPAsyncLoading waitUntilLoaded:playlistItems timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems){
+            NSMutableArray *currentTracks = [[NSMutableArray alloc] init];
+            for (SPTrack *track in loadedItems) {
                 NSMutableDictionary *currentTrack = [[NSMutableDictionary alloc] init];
                 [currentTrack setValue:[track name] forKey:@"title"];
                 [currentTrack setValue:[track consolidatedArtists] forKey:@"artist"];
-                [processedTracks addObject:currentTrack];
+                [currentTrack setValue:[[track spotifyURL] absoluteString] forKey:@"url"];
+                [currentTracks addObject:currentTrack];
+                
             }
-            [playlistDictionary setValue:processedTracks forKey:[playlist name]];
-            [processedPlaylists addObject:playlistDictionary];
+            [currentPlaylist setValue:currentTracks forKey:@"tracks"];
+            [processedPlaylists addObject:currentPlaylist];
         }];
         
     }
+
     NSData *json = [NSJSONSerialization dataWithJSONObject:processedPlaylists options:NSJSONWritingPrettyPrinted error:nil];
-    [[[NSString alloc] initWithData:json encoding:NSUTF8StringEncoding] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
-    //NSLog(@"%@", [[NSString alloc] initWithData:json encoding:NSUTF8StringEncoding]);
+    [[[NSString alloc] initWithData:json encoding:NSASCIIStringEncoding] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
     exit(EXIT_SUCCESS);
+    [[SPSession sharedSession] logout:^(){}];
 }
 
 

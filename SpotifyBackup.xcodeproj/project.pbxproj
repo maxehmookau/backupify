@@ -275,10 +275,12 @@
 		4D51B5FA17156E6D008A05F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpotifyBackup/SpotifyBackup-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
@@ -288,10 +290,12 @@
 		4D51B5FB17156E6D008A05F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpotifyBackup/SpotifyBackup-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
