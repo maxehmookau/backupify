@@ -14,7 +14,7 @@
 
 - (void)loginWithUsername:(NSString *)username password:(NSString *)password {
     NSError *mainError = nil;
-    if([SPSession initializeSharedSessionWithApplicationKey:[NSData dataWithBytes:&g_appkey length:g_appkey_size] userAgent:@"maxWoolf.SpotifyBackup" loadingPolicy:SPAsyncLoadingImmediate error:&mainError])
+    if([SPSession initializeSharedSessionWithApplicationKey:[NSData dataWithBytes:&g_appkey length:g_appkey_size] userAgent:@"com.sharepfdslavcylists.cli85345435476" loadingPolicy:SPAsyncLoadingManual error:&mainError])
     {
         NSLog(@"Created fine");
     }else{
@@ -40,14 +40,15 @@
 
     SPSession *session = [SPSession sharedSession];
     
-    [SPAsyncLoading waitUntilLoaded:session timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems){
+    [SPAsyncLoading waitUntilLoaded:session timeout:10000.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems){
         NSLog(@"loaded session");
         
-        [SPAsyncLoading waitUntilLoaded:session.userPlaylists timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+        [SPAsyncLoading waitUntilLoaded:session.userPlaylists timeout:10000.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
             NSLog(@"loaded playlist container");
             NSArray *playlists = [[loadedItems objectAtIndex:0] flattenedPlaylists];
-            [SPAsyncLoading waitUntilLoaded:playlists timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+            [SPAsyncLoading waitUntilLoaded:playlists timeout:10000.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
                 playlistArray = playlists;
+                NSLog(@"%@", [playlistArray description]);
                 [self processPlaylists];
             }];
         }];
@@ -67,27 +68,50 @@
         for (SPPlaylistItem *item in [playlist items]) {
             [playlistItems addObject:(SPTrack *)[item item]];
         }
-        
-        [SPAsyncLoading waitUntilLoaded:playlistItems timeout:10.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems){
+        [SPAsyncLoading waitUntilLoaded:playlistItems timeout:100000.0 then:^(NSArray *loadedItems, NSArray *notLoadedItems) {
+            NSLog(@"Loaded: %@", [loadedItems description]);
+            NSLog(@"Not Loaded: %@", [notLoadedItems description]);
             NSMutableArray *currentTracks = [[NSMutableArray alloc] init];
             for (SPTrack *track in loadedItems) {
                 NSMutableDictionary *currentTrack = [[NSMutableDictionary alloc] init];
                 [currentTrack setValue:[track name] forKey:@"title"];
                 [currentTrack setValue:[track consolidatedArtists] forKey:@"artist"];
                 [currentTrack setValue:[[track spotifyURL] absoluteString] forKey:@"url"];
+                if ([track isLoaded]) {
+                    [currentTrack setValue:@"YES" forKey:@"loaded"];
+                }else{
+                    [currentTrack setValue:@"NO" forKey:@"loaded"];
+                }
+                
                 [currentTracks addObject:currentTrack];
                 
             }
             [currentPlaylist setValue:currentTracks forKey:@"tracks"];
             [processedPlaylists addObject:currentPlaylist];
+            if ([processedPlaylists count] == [playlistArray count]) {
+                [[[NSString alloc] initWithData: [NSJSONSerialization dataWithJSONObject:processedPlaylists options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
+                exit(EXIT_SUCCESS);
+            }
         }];
         
     }
+    
+    
+}
 
-    NSData *json = [NSJSONSerialization dataWithJSONObject:processedPlaylists options:NSJSONWritingPrettyPrinted error:nil];
-    [[[NSString alloc] initWithData:json encoding:NSASCIIStringEncoding] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
-    exit(EXIT_SUCCESS);
-    [[SPSession sharedSession] logout:^(){}];
+-(void)session:(SPSession *)aSession didLogMessage:(NSString *)aMessage
+{
+    NSLog(@"%@", aMessage);
+}
+
+-(void)session:(SPSession *)aSession didEncounterNetworkError:(NSError *)error
+{
+    NSLog(@"Error: %@", [error localizedDescription]);
+}
+
+- (void)session:(SPSession *)aSession recievedMessageForUser:(NSString *)aMessage
+{
+    NSLog(@"Message: %@", aMessage);
 }
 
 
