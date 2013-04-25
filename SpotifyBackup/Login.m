@@ -12,7 +12,7 @@
 
 @implementation Login
 
-- (void)loginWithUsername:(NSString *)username password:(NSString *)password {
+- (void)loginWithUsername:(NSString *)username password:(NSString *)password credentials:(NSString *)credentials {
     NSError *mainError = nil;
     if([SPSession initializeSharedSessionWithApplicationKey:[NSData dataWithBytes:&g_appkey length:g_appkey_size] userAgent:@"com.sharepfdslavcylists.cli85345435476" loadingPolicy:SPAsyncLoadingManual error:&mainError])
     {
@@ -24,7 +24,12 @@
     
     processedPlaylists = [[NSMutableArray alloc] init];
     [[SPSession sharedSession] setDelegate:self];
-    [[SPSession sharedSession] attemptLoginWithUserName:username password:password];
+    if([password isEqualToString:@"nopassword"]){
+        [[SPSession sharedSession] attemptLoginWithUserName:username existingCredential:credentials];
+    }else{
+        [[SPSession sharedSession] attemptLoginWithUserName:username password:password];
+    }
+        
     
 }
 
@@ -89,6 +94,9 @@
             [currentPlaylist setValue:currentTracks forKey:@"tracks"];
             [processedPlaylists addObject:currentPlaylist];
             if ([processedPlaylists count] == [playlistArray count]) {
+                if(credentials){
+                    [processedPlaylists setValue:credentials forKey:@"credentials"];
+                }
                 [[[NSString alloc] initWithData: [NSJSONSerialization dataWithJSONObject:processedPlaylists options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:nil];
                 exit(EXIT_SUCCESS);
             }
@@ -112,6 +120,11 @@
 - (void)session:(SPSession *)aSession recievedMessageForUser:(NSString *)aMessage
 {
     NSLog(@"Message: %@", aMessage);
+}
+
+-(void)session:(SPSession *)aSession didGenerateLoginCredentials:(NSString *)credential forUserName:(NSString *)userName
+{
+    credentials = credential;
 }
 
 

@@ -13,7 +13,8 @@
 {
     NSArray *playlistArray;
     NSMutableArray *processedPlaylists;
+    NSString *credentials;
 }
--(void)loginWithUsername:(NSString *)username password:(NSString *)password;
+-(void)loginWithUsername:(NSString *)username password:(NSString *)password credentials:(NSString *)credentials;
 -(void)processPlaylists;
 @end

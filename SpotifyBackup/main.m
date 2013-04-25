@@ -16,7 +16,7 @@ int main(int argc, const char * argv[])
         
         
         Login *login = [[Login alloc] init];
-        [login loginWithUsername:[NSString stringWithUTF8String:argv[1]] password:[NSString stringWithUTF8String:argv[2]]];
+        [login loginWithUsername:[NSString stringWithUTF8String:argv[1]] password:[NSString stringWithUTF8String:argv[2]] credentials:[NSString stringWithUTF8String:argv[3]]];
         [[NSRunLoop currentRunLoop] run];
     }
     return 0;
