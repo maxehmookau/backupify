@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D33836517298B720081666B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4D51B5EB17156E6D008A05F4 /* SpotifyBackup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpotifyBackup; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D51B5EE17156E6D008A05F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D51B5F117156E6D008A05F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		4D51B5E217156E6D008A05F4 = {
 			isa = PBXGroup;
 			children = (
+				4D33836517298B720081666B /* README.md */,
 				4D5C463017171FF600E3F4E2 /* CocoaLibSpotify Mac Framework.xcodeproj */,
 				4D51B5F017156E6D008A05F4 /* SpotifyBackup */,
 				4D51B5ED17156E6D008A05F4 /* Frameworks */,
